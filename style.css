@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background-color: darkslategray;
+}
+.baner{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+    font-style: initial;
+    color: aliceblue;
+}
+.baner h1{
+    margin: 0;
+}
+table, tr, td, th{
+    border: 1px solid darkred;
+    border-collapse: collapse;
+    font-size: 18px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+}
+table img{
+    width: 200px;
+    height: 200px;
+}
+a:link {
+    color: green;
+  }
+  a:visited {
+    color: pink;
+  }
+.middle{
+    color: aliceblue;
+}
+.middle .poland{
+    padding-left:100px;
+    background-color: blueviolet;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.middle .ukraine{
+    padding-left:100px;
+    background-color: blueviolet;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.middle .america{
+    padding-left:100px;
+    background-color: blueviolet;
+    margin-left: 100px;
+    margin-right: 100px;
+}
