@@ -1,13 +1,14 @@
 body{
     margin: 0;
-    background-color: darkslategray;
+    background-color: #fef6f4;
 }
 .baner{
-    background-color: blueviolet;
+    background-color: #ec451d;
     text-align: center;
     font-size: 25px;
     font-style: initial;
     color: aliceblue;
+    width: 100%;
 }
 .baner h1{
     margin: 0;
@@ -26,28 +27,44 @@ table img{
 }
 a:link {
     color: green;
-  }
-  a:visited {
+}
+a:visited {
     color: pink;
-  }
+}
 .middle{
-    color: aliceblue;
+    color: #180702;
 }
 .middle .poland{
     padding-left:100px;
-    background-color: blueviolet;
+    background-color: #ec451d;
     margin-left: 100px;
     margin-right: 100px;
 }
 .middle .ukraine{
     padding-left:100px;
-    background-color: blueviolet;
+    background-color: #ec451d;
     margin-left: 100px;
     margin-right: 100px;
 }
 .middle .america{
     padding-left:100px;
-    background-color: blueviolet;
+    background-color: #ec451d;
     margin-left: 100px;
     margin-right: 100px;
+}
+.footer{
+    background-color:#ec451d ;
+    width: 100%;
+    position: absolute;
+}
+.footer h3{
+    margin-left:20px ;
+}
+.footer a{
+    color: #83f47b;
+}
+.txt p{
+    background-color: #ec451d;
+    border-radius: 10px;
+
 }

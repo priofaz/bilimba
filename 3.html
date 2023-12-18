@@ -3,11 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
-    <form action="3.html">
-        <label for=""></label> <input type="text">
-    </form>
+    <a href="index.html">Go back</a>
+    <div class="form">
+            <form action="3.html">
+                <table>
+                    <tr>
+                        <td><label for="name">Enter your e-mail</label></td>
+                        <td><input type="text" id="name" placeholder="e-mail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="catname">Write your cat name</label></td>
+                        <td><input type="text" id="catname" placeholder="cat name"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Select your gender</label><br>
+                        <input type="checkbox" id="bag">
+                        <label for="bag">Walmart bag</label><br>
+                        <input type="checkbox" id="helicopter">
+                        <label for="helicopter">Helicopter</label><br>
+                        <input type="checkbox" id="catgirl">
+                        <label for="catgirl">Catgirl</label><br>
+                        <input type="checkbox" id="LaptopDellInspiron1525">
+                        <label for="LaptopDellInspiron1525">Laptop Dell Inspiron 1525</label><br>
+                        <input type="checkbox" id="RustDeweloper">
+                        <label for="RustDeweloper">Rust Deweloper (Femboy)</label><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Create password</label></td>
+                        <td><input type="password" id="password" placeholder="password"></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Sing up">
+            </form>
+    </div>
 </body>
 </html>
+<style>
+    body{
+        background-color: #fef6f4;
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        flex-direction: column;
+    }
+    a{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
