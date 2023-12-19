@@ -3,7 +3,7 @@ body{
     background-color: #fef6f4;
 }
 .baner{
-    background-color: #ec451d;
+    background-color: #748d96;
     text-align: center;
     font-size: 25px;
     font-style: initial;
@@ -32,28 +32,28 @@ a:visited {
     color: pink;
 }
 .middle{
-    color: #180702;
+    color: #0c0f10;
 }
 .middle .poland{
     padding-left:100px;
-    background-color: #ec451d;
+    background-color: #748d96;
     margin-left: 100px;
     margin-right: 100px;
 }
 .middle .ukraine{
     padding-left:100px;
-    background-color: #ec451d;
+    background-color: #748d96;
     margin-left: 100px;
     margin-right: 100px;
 }
 .middle .america{
     padding-left:100px;
-    background-color: #ec451d;
+    background-color: #748d96;
     margin-left: 100px;
     margin-right: 100px;
 }
 .footer{
-    background-color:#ec451d ;
+    background-color:#748d96;
     width: 100%;
     position: absolute;
 }
